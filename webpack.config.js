@@ -1,3 +1,4 @@
+const Dotenv = require("dotenv-webpack");
 const path = require("path");
 const DIST_DIR = path.join(__dirname, "client/dist");
 
@@ -9,6 +10,7 @@ module.exports = {
     path: DIST_DIR,
   },
   devtool: "eval-cheap-source-map",
+  plugins: [new Dotenv()],
   module: {
     rules: [
       {

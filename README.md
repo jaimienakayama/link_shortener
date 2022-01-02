@@ -1,4 +1,4 @@
-# link_shortner
+# link_shortener
 
 This app uses Bitly's [API](https://dev.bitly.com/).
 

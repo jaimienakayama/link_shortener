@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const shortenLink = (long_url) => {
   const headers = {
-    Authorization: "Bearer 50bc82c5c13f54c2fea69c29255e8ffcf9cb5476",
+    Authorization: `Bearer ${process.env.API_KEY}`,
     "Content-Type": "application/json",
   };
 

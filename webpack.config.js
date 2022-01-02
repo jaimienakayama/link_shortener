@@ -10,7 +10,7 @@ module.exports = {
     path: DIST_DIR,
   },
   devtool: "eval-cheap-source-map",
-  plugins: [new Dotenv()],
+  plugins: [new Dotenv({ systemvars: true })],
   module: {
     rules: [
       {

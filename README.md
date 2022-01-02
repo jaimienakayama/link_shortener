@@ -4,4 +4,4 @@ This app uses Bitly's [API](https://dev.bitly.com/).
 
 A simple app that shortens long links!
 
-Hosted on Heroku -> 
+Hosted on Heroku -> https://link-shorten-app.herokuapp.com/
